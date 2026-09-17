@@ -1,6 +1,6 @@
 # Criptos Trader
 
-El precio de **Solana (SOL/USD)** en vivo, en una ventanita pegada a la barra de tareas de
+El precio de tu criptomoneda en vivo, en una ventanita pegada a la barra de tareas de
 Windows. Siempre a la vista, con alertas de precio, el seguimiento de tus compras y una
 sugerencia de comprar, vender o mantener.
 
@@ -14,8 +14,8 @@ SOL $99.88 ▲2.81% +$27.20 (+1.4%) mantener
 
 ## Qué hace
 
-Es una ventanita que se queda pegada a la barra de tareas y va marcando el precio de Solana
-mientras trabajas, sin tener que abrir nada ni mirar una web.
+Es una ventanita que se queda pegada a la barra de tareas y va marcando el precio mientras
+trabajas, sin tener que abrir nada ni mirar una web.
 
 - **El precio en vivo**, con la variación de las últimas 24 horas en verde o en rojo.
 - **Alertas de precio**: le dices a qué nivel te avisa —al subir o al bajar— y te lo avisa
@@ -32,6 +32,9 @@ mientras trabajas, sin tener que abrir nada ni mirar una web.
 
 Todo lo que configures se queda en tu computador. La app no tiene cuentas, no pide registro
 y no envía tus compras ni tus alertas a ninguna parte.
+
+Por ahora sigue una sola moneda, **SOL**. Poder elegir entre varias es lo siguiente que
+llega, y llegará sola con una actualización: no habrá que reinstalar nada.
 
 ---
 
