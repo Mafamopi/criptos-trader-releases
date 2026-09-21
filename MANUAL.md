@@ -145,7 +145,9 @@ cambiar en general o alerta por alerta.
 - **Avisarme cuando salte una alerta** — el interruptor principal. Apagado, no llega nada.
 - **Avisarme de las sugerencias de compra** *(Windows)*
 - **…y de las de venta** *(Windows)*
-- **Avisarme cuando haya una actualización** *(Windows)*
+- **Avisarme cuando haya una actualización** — en Windows la versión ya está descargada y
+  solo falta reiniciar; en Android el aviso lleva a la página de descargas, porque un APK no
+  puede instalarse solo
 - **…aunque la app esté cerrada** *(Android)* — comprueba el precio de fondo cada **15, 30 o
   60 minutos**, que se elige en **Cada cuánto**. Menos de 15 no lo permite Android.
 - **…y de los cambios de sugerencia** *(Android)* — avisa también cuando la sugerencia
