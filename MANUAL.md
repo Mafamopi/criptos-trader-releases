@@ -1,107 +1,64 @@
 # Manual de uso
 
-Criptos Trader sigue el precio de Solana, guarda tus compras y te dice si vas ganando o
-perdiendo. Es la misma aplicación en Windows y en Android: las mismas pantallas, los mismos
-cálculos y los mismos ajustes.
+Cómo se usa Criptos Trader, pantalla por pantalla. Es la misma aplicación en Windows y en
+Android: las mismas pantallas y los mismos cálculos. Lo que solo existe en Windows va
+marcado.
 
 > ⚠️ **No es asesoría financiera.** La sugerencia que verás —*comprar*, *vender*,
 > *mantener*— sale de una fórmula, no de alguien que sepa lo que va a pasar. Puede
-> equivocarse y se equivocará. Las decisiones son tuyas y el dinero también.
+> equivocarse. Las decisiones son tuyas y el dinero también.
 
 ---
 
 ## Índice
 
-1. [Instalarla](#1-instalarla)
-2. [La pantalla de inicio](#2-la-pantalla-de-inicio)
-3. [Mi inversión](#3-mi-inversión)
-4. [Plan de inversión](#4-plan-de-inversión)
-5. [Alertas de precio](#5-alertas-de-precio)
-6. [Estrategia](#6-estrategia)
-7. [Ajustes](#7-ajustes)
-8. [Dónde se guardan tus datos](#8-dónde-se-guardan-tus-datos)
-9. [Si algo no funciona](#9-si-algo-no-funciona)
+1. [La pantalla de inicio](#1-la-pantalla-de-inicio)
+2. [Mi inversión](#2-mi-inversión)
+3. [Plan de inversión](#3-plan-de-inversión)
+4. [Alertas de precio](#4-alertas-de-precio)
+5. [Estrategia](#5-estrategia)
+6. [Ajustes](#6-ajustes)
+7. [La ventanita de la barra de tareas](#7-la-ventanita-de-la-barra-de-tareas)
+8. [El icono junto al reloj](#8-el-icono-junto-al-reloj)
 
 ---
 
-## 1. Instalarla
-
-### Windows
-
-Descarga **`CriptosTrader-win-Setup.exe`** de la
-[última versión](https://github.com/Mafamopi/criptos-trader-releases/releases/latest) y
-ejecútalo.
-
-Windows dirá **«Windows protegió su PC»**. Es porque el instalador no está firmado, no
-porque tenga nada malo: pulsa **Más información** → **Ejecutar de todas formas**.
-
-No pide permisos de administrador ni pregunta dónde instalarse. Al terminar aparece una
-ventanita pegada a la barra de tareas con el precio, y ahí se queda.
-
-**Se actualiza sola.** Cuando haya una versión nueva la descarga y la aplica sin que tengas
-que hacer nada.
-
-> ¿Prefieres no instalar nada? En la misma página hay un
-> **`CriptosTrader-win-Portable.zip`**: se descomprime y se ejecuta tal cual. A cambio, esa
-> copia **no se actualiza sola**.
-
-### Android
-
-Descarga **`CriptosTrader-android.apk`** de la
-[última versión](https://github.com/Mafamopi/criptos-trader-releases/releases/latest)
-desde el propio teléfono y ábrelo.
-
-La primera vez Android dirá que **no puede instalar apps de orígenes desconocidos**. Es lo
-normal cuando una app no viene de Google Play:
-
-1. Pulsa **Ajustes** en ese mismo aviso.
-2. Activa **Permitir de esta fuente** para el navegador o el gestor de archivos que estés
-   usando.
-3. Vuelve atrás y pulsa **Instalar**.
-
-Necesita **Android 6.0 o superior**.
-
-**En Android no se actualiza sola.** Para pasar a una versión nueva, descarga el APK nuevo
-y ábrelo: se instala encima y **conserva tus compras, alertas y ajustes**. No hace falta
-desinstalar nada.
-
-### iPhone
-
-Todavía no. No es que falte el código —la app es la misma— sino que Apple no deja instalar
-una aplicación descargada de una web: solo admite la App Store, TestFlight o que la firmes
-tú mismo desde un Mac. Mientras eso no esté resuelto, publicar un archivo aquí sería
-publicar algo que tu iPhone se negaría a abrir.
-
----
-
-## 2. La pantalla de inicio
+## 1. La pantalla de inicio
 
 Es lo primero que ves y lo que más vas a mirar.
 
 **El precio**, grande, y debajo la **variación de las últimas 24 horas** en verde si sube y
 en rojo si baja.
 
-**Tu resultado.** Cuánto ganas o pierdes ahora mismo con lo que hayas comprado, en dólares
-y en porcentaje. Si todavía no has registrado ninguna compra, en su lugar hay un botón que
-te lleva directo a donde se registran.
+**Tu resultado.** Cuánto ganas o pierdes ahora mismo con lo que hayas comprado, en dólares y
+en porcentaje. Si aún no has registrado ninguna compra, en su lugar hay un botón que te
+lleva directo a donde se registran.
 
 **Alertas que han saltado.** Aparece solo si ha saltado alguna. Guarda las últimas 20 de
 esta sesión, la más reciente arriba.
 
 **Sugerencia.** Una palabra —*comprar*, *vender* o *mantener*— con una línea explicando de
 dónde sale. Se calcula con indicadores del mercado (medias móviles y RSI sobre velas de una
-hora) y con tus propias compras. Si la apagas en [Estrategia](#6-estrategia), esta tarjeta
+hora) y con tus propias compras. Si la apagas en [Estrategia](#5-estrategia), esta tarjeta
 desaparece.
 
-Debajo, los botones que llevan al resto: **Actualizar ahora**, **Mi inversión**, **Plan de
-inversión**, **Alertas de precio**, **Estrategia**, **Ajustes** y **Manual de uso**.
+Debajo, los botones:
 
-> **Actualizar ahora** pide el precio sin esperar al siguiente ciclo. No hace falta usarlo:
-> el precio se refresca solo.
+| Botón | Qué hace |
+|---|---|
+| **Actualizar ahora** | Pide el precio sin esperar al siguiente ciclo |
+| **Mi inversión** | Solo aparece si ya registraste alguna compra |
+| **Plan de inversión** | Cuánto invertir ahora, y qué pasó otras veces |
+| **Alertas de precio** | Crear y administrar avisos |
+| **Estrategia** | Perfil de riesgo y escalera de compra |
+| **Ajustes** | Intervalo, apariencia, gráfico |
+| **Manual de uso** | Esto que estás leyendo, dentro de la app |
+
+No hace falta usar *Actualizar ahora*: el precio se refresca solo.
 
 ---
 
-## 3. Mi inversión
+## 2. Mi inversión
 
 Aquí le dices a la app qué has comprado. Sin esto no puede calcular ni tu resultado ni el
 plan.
@@ -117,7 +74,7 @@ creerá que ya no hay margen y dejará de sugerir compras sin explicar por qué.
 
 ### Tus compras
 
-Cada compra se registra con:
+Pulsa **+ Agregar compra**. Cada una lleva:
 
 | Campo | Qué es |
 |---|---|
@@ -125,18 +82,16 @@ Cada compra se registra con:
 | **Precio de compra (USD/SOL)** | A qué precio estaba el SOL cuando compraste |
 | **Fecha** | Opcional, en formato `2026-03-15` |
 
-Pulsa **+ Agregar compra** para añadir una, o toca una de la lista para editarla o
-borrarla.
+Toca una compra de la lista para **editarla** o **eliminarla**. Puedes registrar tantas como
+quieras: la app calcula tu precio medio y desde ahí tu ganancia o pérdida, y debajo de la
+lista resume el total invertido.
 
-Puedes registrar tantas como quieras. La app calcula tu precio medio y desde ahí tu
-ganancia o pérdida.
-
-> **Lo que registres vive solo en este dispositivo.** Las compras del teléfono y las del PC
-> no se sincronizan: si usas los dos, tendrás que registrarlas en ambos.
+> Lo que registres vive solo en este dispositivo. Las compras del teléfono y las del PC no
+> se sincronizan: si usas los dos, tendrás que registrarlas en ambos.
 
 ---
 
-## 4. Plan de inversión
+## 3. Plan de inversión
 
 Responde a una pregunta: *¿debería comprar ahora, y cuánto?*
 
@@ -156,7 +111,7 @@ puesto el techo, te lo dirá con un botón para ir a arreglarlo.
 
 ---
 
-## 5. Alertas de precio
+## 4. Alertas de precio
 
 Para no tener que estar mirando.
 
@@ -164,10 +119,15 @@ Para no tener que estar mirando.
 
 Pulsa **+ Agregar alerta**:
 
-- **Cuándo avisar**: *Al caer a…* o *Al subir a…*
-- **Precio (USD)**: el nivel que dispara el aviso.
-- **Máx. avisos al día (opcional)**: vacío usa el límite general; `0` significa sin límite.
-- **Activa**: si está apagada, se queda guardada pero no avisa.
+| Campo | Qué es |
+|---|---|
+| **Cuándo avisar** | *Al caer a…* o *Al subir a…* |
+| **Precio (USD)** | El nivel que dispara el aviso |
+| **Máx. avisos al día** | Opcional. Vacío usa el límite general; `0` es sin límite |
+| **Activa** | Apagada se queda guardada, pero no avisa |
+
+Se guarda con **Guardar**. Desde el mismo formulario puedes **Eliminar esta alerta** o
+**Cancelar**.
 
 Cada alerta de la lista tiene su propio interruptor al lado, para encenderla y apagarla sin
 abrir el formulario.
@@ -183,26 +143,32 @@ cambiar en general o alerta por alerta.
 ### Avisos
 
 - **Avisarme cuando salte una alerta** — el interruptor principal. Apagado, no llega nada.
-- **…aunque la app esté cerrada** *(solo Android)* — comprueba el precio de fondo cada
-  **15, 30 o 60 minutos**. Menos de 15 no lo permite Android.
-- **…y de los cambios de sugerencia** *(solo Android)* — avisa también cuando la sugerencia
+- **Avisarme de las sugerencias de compra** *(Windows)*
+- **…y de las de venta** *(Windows)*
+- **Avisarme cuando haya una actualización** *(Windows)*
+- **…aunque la app esté cerrada** *(Android)* — comprueba el precio de fondo cada **15, 30 o
+  60 minutos**, que se elige en **Cada cuánto**. Menos de 15 no lo permite Android.
+- **…y de los cambios de sugerencia** *(Android)* — avisa también cuando la sugerencia
   cambie.
-- En Windows, además: avisos de **sugerencia de compra**, **de venta** y de
-  **actualización disponible**.
 
-**Comprobar ahora** hace una comprobación por el mismo camino que la automática. Si una
-alerta está cruzada, el aviso llega en unos segundos: sirve para confirmar que todo está
-bien configurado sin esperar.
+**Comprobar ahora** *(Android)* hace una comprobación por el mismo camino que la automática.
+Si una alerta está cruzada, el aviso llega en unos segundos: sirve para confirmar que todo
+está bien configurado sin esperar.
 
-> **Android pide permiso para notificar.** Si falta, la pantalla lo dice y te ofrece un
-> botón para darlo. Sin ese permiso no llega ningún aviso, por muchos interruptores que
-> enciendas.
+Los avisos **quedan en el panel de notificaciones** después de desvanecerse, así que una
+alerta que salta mientras no miras la pantalla no se pierde.
+
+> **Android pide permiso para notificar.** Si falta, la pantalla lo dice y te ofrece un botón
+> para darlo. Sin ese permiso no llega ningún aviso, por muchos interruptores que enciendas.
 
 ---
 
-## 6. Estrategia
+## 5. Estrategia
 
 Aquí decides **cómo de agresivo** quieres que sea el plan.
+
+**Sugerir cuándo y cuánto invertir o vender** es el interruptor de arriba. Apagado, la app se
+limita a enseñarte el precio y tu resultado, y no sugiere nada en ninguna pantalla.
 
 ### Perfil de riesgo
 
@@ -224,98 +190,114 @@ porcentaje invertir en cada uno:
 | **Tope en señal extrema** | 50 % | 70 % | 100 % |
 
 **Ese porcentaje es del capital que te queda disponible, no del total.** Es lo que hace que
-la escalera se modere sola: si inviertes el 20 %, te queda el 80 %, y el escalón siguiente
-se calcula sobre ese 80 %. Así no te quedas sin dinero justo cuando el precio está en su
-mejor momento, que es lo que arruina una compra escalonada cuando la caída se alarga.
+la escalera se modere sola: si inviertes el 20 %, te queda el 80 %, y el escalón siguiente se
+calcula sobre ese 80 %. Así no te quedas sin dinero justo cuando el precio está en su mejor
+momento, que es lo que arruina una compra escalonada cuando la caída se alarga.
 
 Los números solo se pueden editar en **Personalizado**. En los otros tres se ven, pero no se
 tocan: son el perfil.
 
 > El **tope en señal extrema** es el máximo que se compromete de una sola vez cuando todos
-> los indicadores apuntan a lo mismo. El Agresivo llega al 100 % a propósito —es el
-> «invierte todo»— y por eso no es el valor por defecto.
-
-### Sugerir cuándo y cuánto invertir o vender
-
-El interruptor de arriba. Apagado, la app se limita a enseñarte el precio y tu resultado, y
-no sugiere nada en ninguna pantalla.
+> los indicadores apuntan a lo mismo. El Agresivo llega al 100 % a propósito —es el «invierte
+> todo»— y por eso no es el valor por defecto.
 
 ---
 
-## 7. Ajustes
+## 6. Ajustes
 
 ### Cada cuánto se consulta el precio
 
-En el **teléfono**: 30 s, 1 min, 2 min, 5 min o 10 min. El mínimo es 30 segundos, y no es
-un capricho: cada consulta enciende la radio del teléfono y eso lo paga la batería.
+En el **teléfono**: 30 s, 1 min, 2 min, 5 min o 10 min. El mínimo es 30 segundos, y no es un
+capricho: cada consulta enciende la radio del teléfono y eso lo paga la batería.
 
-En **Windows**: desde 5 segundos, porque un PC enchufado no tiene ese problema.
+En **Windows**: 5 s, 10 s, 15 s, 30 s, 1 min, 2 min o 5 min.
 
-También puedes escribir un número propio en **Otro (segundos)**.
+En **Otro (segundos)** puedes escribir un número propio; debajo se lee el rango admitido y el
+intervalo que está funcionando ahora mismo.
 
 ### Ticker de la barra de tareas *(solo Windows)*
 
-Cómo se ve la ventanita: **iniciar con Windows**, **tamaño de la letra**, **opacidad del
-fondo**, y qué mostrar —**variación 24 h**, **tu resultado**, **la sugerencia**—.
+Toda esta sección describe la ventanita, así que en el teléfono no aparece.
 
-En el teléfono esta sección no aparece: describe algo que allí no existe.
+| Ajuste | Qué hace |
+|---|---|
+| **Iniciar con Windows** | La app se abre sola al encender el PC |
+| **Tamaño de la letra** | Lo grande que se ve el texto del ticker |
+| **Opacidad del fondo** | De transparente a sólido |
+| **Mostrar variación 24 h** | Enseña o esconde el porcentaje del día |
+| **Mostrar mi resultado** | Enseña o esconde tu ganancia o pérdida |
+| **Mostrar la sugerencia** | Enseña o esconde la palabra final |
 
-### Tema
+**Tema**: **Oscuro**, **Claro**, **Solana** o **Personalizado**.
 
-El aspecto de la aplicación.
+Con **Personalizado** aparecen ocho colores para tocar uno a uno: **Fondo**, **Símbolo**,
+**Precio**, **Subida**, **Bajada**, **Sugerir comprar**, **Sugerir vender** y **Sugerir
+mantener**. Con un tema predefinido no se muestran, porque el tema los decide.
 
 ### Gráfico
 
-La dirección que abre **Abrir gráfico**. Viene puesta y puedes cambiarla por la del sitio
-que prefieras.
+La dirección que abre **Abrir gráfico**. Viene puesta y puedes cambiarla por la del sitio que
+prefieras.
 
 ### Log detallado
 
 Apagado por defecto. Enciéndelo solo si algo va mal y quieres ver qué está pasando por
-dentro; deja el registro mucho más largo.
+dentro: anota cada precio y cada indicador, y eso engorda mucho el registro.
+
+### La versión
+
+Al final del todo se lee qué versión tienes abierta. Es el primer dato que hace falta si algo
+falla. En Windows, una copia que no se instaló se marca **(sin instalar)**: es la que no se
+actualiza sola.
 
 ---
 
-## 8. Dónde se guardan tus datos
+## 7. La ventanita de la barra de tareas
 
-**En tu dispositivo, y en ningún otro sitio.**
+*(Solo Windows.)*
 
-La app no tiene cuentas, no pide registro, no envía tus compras ni tus alertas a ninguna
-parte. Lo único que sale a internet es la consulta del precio y del histórico del mercado.
+Es una tira pegada a la barra de tareas que va marcando el precio mientras trabajas:
 
-Eso tiene una consecuencia que conviene saber: **si desinstalas, se borra todo**, y el PC y
-el teléfono no comparten nada.
+```
+SOL $99.88 ▲2.81% +$27.20 (+1.4%) mantener
+```
+
+Qué aparece ahí lo eliges tú en [Ajustes](#6-ajustes).
+
+- **Arrástrala** para moverla donde quieras. Se queda donde la dejes.
+- **Púlsala** para abrir la configuración.
+- **Botón derecho** abre el mismo menú que el icono del reloj.
+- **Se aparta sola.** Si abres un juego o un vídeo a pantalla completa, se esconde y vuelve
+  cuando sales.
+- Se mantiene **por encima** de las demás ventanas, y nunca es más alta que la barra de
+  tareas.
 
 ---
 
-## 9. Si algo no funciona
+## 8. El icono junto al reloj
 
-**No aparece el precio, o dice que no pudo consultarlo.**
-La app te lo dirá con todas las letras en vez de enseñarte un precio viejo como si fuera de
-ahora. Suele ser la red: algunas redes de oficina y algunos países bloquean las fuentes de
-precio. Comprueba tu conexión y espera al siguiente ciclo.
+*(Solo Windows.)*
 
-**No llega ninguna alerta en Android.**
-Por orden: que el interruptor **Avisarme cuando salte una alerta** esté encendido; que el
-**permiso de notificaciones** esté dado —la pantalla de alertas lo avisa si falta—; que la
-alerta concreta esté **activa**; y que no hayas gastado ya su máximo de avisos del día.
-Después usa **Comprobar ahora** para confirmarlo sin esperar.
+Pasando el ratón por encima se lee el precio y la variación del día. Pulsándolo se abre la
+configuración. Con el botón derecho sale el menú:
 
-**Las alertas llegan tarde con la app cerrada.**
-Es Android decidiendo cuándo. La comprobación de fondo pide un hueco cada 15, 30 o 60
-minutos, pero el sistema lo concede cuando le conviene para no gastar batería. Si el
-teléfono tiene un ahorro de energía agresivo, conviene excluir la app de esa optimización.
+| Opción | Qué hace |
+|---|---|
+| **Configuración** | Abre la app en la pantalla de inicio |
+| **Alertas** | Va directo a las alertas de precio |
+| **Plan de inversión** | Va directo al plan |
+| **Actualizar ahora** | Pide el precio sin esperar |
+| **Abrir gráfico** | Abre el gráfico en tu navegador |
+| **Iniciar con Windows** | Se marca cuando está activado |
+| **Ocultar ticker** / **Mostrar ticker** | Quita o devuelve la ventanita |
+| **Buscar actualizaciones** | Mira si hay versión nueva |
+| **Salir** | Cierra la app del todo |
 
-**El plan dice que no hay capital disponible.**
-Casi siempre es el **techo total**: tiene que incluir lo que ya compraste. Revísalo en
-[Mi inversión](#3-mi-inversión).
+Cerrar la ventana de configuración **no cierra la app**: sigue viva en la bandeja. Se sale
+por **Salir**.
 
-**Windows dice que protegió mi PC.**
-El instalador no está firmado. **Más información** → **Ejecutar de todas formas**.
-
-**Quiero quitarla.**
-En Windows, desde *Configuración → Aplicaciones → Criptos Trader → Desinstalar*. En Android,
-como cualquier otra app: mantener pulsado el icono → *Desinstalar*.
+La entrada de actualizaciones va cambiando sola: dice *Buscando actualizaciones…* mientras
+mira, y **Reiniciar para actualizar a X** cuando ya está descargada y solo falta reiniciar.
 
 ---
 
