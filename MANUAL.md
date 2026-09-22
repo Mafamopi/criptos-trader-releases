@@ -16,10 +16,11 @@ marcado.
 2. [Mi inversión](#2-mi-inversión)
 3. [Plan de inversión](#3-plan-de-inversión)
 4. [Alertas de precio](#4-alertas-de-precio)
-5. [Estrategia](#5-estrategia)
-6. [Ajustes](#6-ajustes)
-7. [La ventanita de la barra de tareas](#7-la-ventanita-de-la-barra-de-tareas)
-8. [El icono junto al reloj](#8-el-icono-junto-al-reloj)
+5. [Noticias](#5-noticias)
+6. [Estrategia](#6-estrategia)
+7. [Ajustes](#7-ajustes)
+8. [La ventanita de la barra de tareas](#8-la-ventanita-de-la-barra-de-tareas)
+9. [El icono junto al reloj](#9-el-icono-junto-al-reloj)
 
 ---
 
@@ -37,9 +38,30 @@ lleva directo a donde se registran.
 **Alertas que han saltado.** Aparece solo si ha saltado alguna. Guarda las últimas 20 de
 esta sesión, la más reciente arriba.
 
+**Tasa de la FED.** El rango de tipos de interés que fija la Reserva Federal de Estados
+Unidos, con el tipo efectivo del último día hábil y la fecha del dato. Es contexto, no
+consejo: cuando la FED sube o baja el tipo, el mercado entero se mueve, y esta tarjeta te
+dice en qué ambiente estás. Lo publica la propia Reserva Federal de Nueva York; aparece en
+cuanto se ha podido leer una vez, y se queda ahí aunque luego te quedes sin conexión.
+
+**Desempleo en EE. UU.** La tasa del último mes publicado, con el mes al que corresponde.
+Junto al tipo de la FED son las dos cifras que mueven el mercado entero cuando salen. Lo
+publica el *Bureau of Labor Statistics*, una vez al mes.
+
+El dato se pide a dos sitios: primero al **BLS**, que es quien lo publica, y si no contesta
+—su servicio gratuito atiende 25 consultas al día por conexión— a la **Reserva Federal de
+San Luis**, que publica el mismo número. Que se caiga uno no te deja sin dato.
+
+El último dato conocido **se queda en pantalla** aunque hoy no se haya podido comprobar si
+hay uno más nuevo; cuando es el caso, lo dice debajo. Un dato mensual sigue siendo cierto
+aunque hoy falle la conexión.
+
+Solo si nunca se ha podido traer ninguno verás un **—**, y debajo el motivo. Se vuelve a
+intentar solo; no hay nada que tocar.
+
 **Sugerencia.** Una palabra —*comprar*, *vender* o *mantener*— con una línea explicando de
 dónde sale. Se calcula con indicadores del mercado (medias móviles y RSI sobre velas de una
-hora) y con tus propias compras. Si la apagas en [Estrategia](#5-estrategia), esta tarjeta
+hora) y con tus propias compras. Si la apagas en [Estrategia](#6-estrategia), esta tarjeta
 desaparece.
 
 Debajo, los botones:
@@ -50,6 +72,7 @@ Debajo, los botones:
 | **Mi inversión** | Solo aparece si ya registraste alguna compra |
 | **Plan de inversión** | Cuánto invertir ahora, y qué pasó otras veces |
 | **Alertas de precio** | Crear y administrar avisos |
+| **Noticias** | Los últimos titulares de Solana |
 | **Estrategia** | Perfil de riesgo y escalera de compra |
 | **Ajustes** | Intervalo, apariencia, gráfico |
 | **Manual de uso** | Esto que estás leyendo, dentro de la app |
@@ -148,10 +171,26 @@ cambiar en general o alerta por alerta.
 - **Avisarme cuando haya una actualización** — en Windows la versión ya está descargada y
   solo falta reiniciar; en Android el aviso lleva a la página de descargas, porque un APK no
   puede instalarse solo
+- **Avisarme cuando la FED cambie el tipo de interés** — cubre los dos datos de Estados
+  Unidos: el tipo de la FED y el desempleo. El rango objetivo solo cambia en las ocho
+  reuniones anuales de la FED, y el desempleo se publica una vez al mes, así que son unos
+  veinte avisos al año en total. Que el tipo efectivo se mueva unas centésimas dentro del
+  rango no avisa: eso pasa casi a diario y no es una decisión de nadie. Se mira **dos veces
+  al día**, y el desempleo solo cuando puede haber uno nuevo; apagarlo también ahorra esas
+  consultas cuando la app está cerrada.
+- **Avisarme cuando haya noticias nuevas** — con su propio **máximo de avisos al día**
+  (3 por defecto, 0 = sin límite), justo debajo del interruptor. Varias noticias nuevas
+  salen **en un solo aviso**: un día movido produce docenas de titulares, y un aviso por
+  cada uno es lo que acaba con alguien apagándolo todo.
 - **…aunque la app esté cerrada** *(Android)* — comprueba el precio de fondo cada **15, 30 o
   60 minutos**, que se elige en **Cada cuánto**. Menos de 15 no lo permite Android.
 - **…y de los cambios de sugerencia** *(Android)* — avisa también cuando la sugerencia
   cambie.
+
+Las noticias y los datos de EE. UU. **viajan en esa misma comprobación**, no piden una
+propia: así no gastan ni un despertar extra de batería. La contrapartida es que si no
+tienes ninguna alerta activa, con la app cerrada no llega nada —tampoco los titulares—. La
+pantalla de alertas te lo dice cuando es el caso.
 
 **Comprobar ahora** *(Android)* hace una comprobación por el mismo camino que la automática.
 Si una alerta está cruzada, el aviso llega en unos segundos: sirve para confirmar que todo
@@ -160,12 +199,47 @@ está bien configurado sin esperar.
 Los avisos **quedan en el panel de notificaciones** después de desvanecerse, así que una
 alerta que salta mientras no miras la pantalla no se pierde.
 
+En Android salen en **dos grupos** del sistema: *Alertas de precio* y *Noticias y datos*.
+Puedes silenciar uno sin tocar el otro desde los ajustes de notificaciones de Android, que
+es donde mucha gente los apaga.
+
 > **Android pide permiso para notificar.** Si falta, la pantalla lo dice y te ofrece un botón
 > para darlo. Sin ese permiso no llega ningún aviso, por muchos interruptores que enciendas.
 
 ---
 
-## 5. Estrategia
+## 5. Noticias
+
+Los últimos titulares sobre Solana, del más nuevo al más viejo. Salen de
+**Cointelegraph**, de su canal dedicado a Solana: no es un río de noticias generales
+filtrado a ojo, es el canal de la moneda.
+
+Cada titular **es el enlace**: al tocarlo se abre la noticia completa en el navegador.
+Debajo va la entradilla y la hora a la que se publicó, en tu hora.
+
+**Los titulares llegan en inglés y la app los traduce.** Debajo de cada uno, en letra
+pequeña, queda el titular original: la traducción es automática y puede torcer un nombre o
+una cifra, y el artículo que abre el enlace está en inglés. Si alguna entradilla no se pudo
+traducir, no se muestra —un titular en español con dos líneas en inglés debajo se lee peor
+que un titular solo— y suele aparecer en la siguiente actualización.
+
+Si en algún momento no se puede traducir, el titular sale **en su idioma** y ya está: la app
+no te dirá nada al respecto, porque no hay nada que puedas hacer y se arregla solo.
+
+Los avisos de noticias también llegan traducidos.
+
+**Actualizar** pide el canal al momento. No hace falta usarlo: la app lo mira sola cada
+cuarto de hora mientras está abierta, y también con la app cerrada si tienes encendido el
+aviso de noticias.
+
+Si el canal no contesta, la pantalla lo dice. Lo que ya se había traído sigue ahí.
+
+> ⚠️ Los titulares son información, no una recomendación. Que una noticia sea buena no
+> significa que el precio vaya a subir, ni al revés.
+
+---
+
+## 6. Estrategia
 
 Aquí decides **cómo de agresivo** quieres que sea el plan.
 
@@ -205,7 +279,7 @@ tocan: son el perfil.
 
 ---
 
-## 6. Ajustes
+## 7. Ajustes
 
 ### Cada cuánto se consulta el precio
 
@@ -254,7 +328,7 @@ actualiza sola.
 
 ---
 
-## 7. La ventanita de la barra de tareas
+## 8. La ventanita de la barra de tareas
 
 *(Solo Windows.)*
 
@@ -264,7 +338,7 @@ Es una tira pegada a la barra de tareas que va marcando el precio mientras traba
 SOL $99.88 ▲2.81% +$27.20 (+1.4%) mantener
 ```
 
-Qué aparece ahí lo eliges tú en [Ajustes](#6-ajustes).
+Qué aparece ahí lo eliges tú en [Ajustes](#7-ajustes).
 
 - **Arrástrala** para moverla donde quieras. Se queda donde la dejes.
 - **Púlsala** para abrir la configuración.
@@ -276,7 +350,7 @@ Qué aparece ahí lo eliges tú en [Ajustes](#6-ajustes).
 
 ---
 
-## 8. El icono junto al reloj
+## 9. El icono junto al reloj
 
 *(Solo Windows.)*
 
