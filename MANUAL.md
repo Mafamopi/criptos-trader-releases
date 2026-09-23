@@ -362,6 +362,18 @@ editas después, se conserva: nada se borra en silencio.
 Tus datos se guardan en el servidor de Criptos Trader, que puede leerlos: es lo que permite
 recuperar la cuenta si olvidas la contraseña.
 
+### Desde el navegador
+
+La misma app, sin instalar nada: **https://criptostrader.serviciosmultiplesorion.com**.
+Entra con tu cuenta y ves lo mismo que en el PC y en el teléfono. La primera vez tarda unos
+segundos en cargar; después, casi nada.
+
+**Avisos en el navegador:** con la pestaña abierta, aunque estés en otra pestaña o en otro
+programa, las alertas, los cambios de sugerencia, las noticias y los datos de EE. UU. llegan
+como notificaciones del navegador. La primera vez pulsa **Dar permiso** en *Alertas*: el
+navegador solo deja pedirlo después de que toques algo. Si estás mirando la pestaña no sale
+notificación, porque ya lo ves en la app. Con la pestaña cerrada no llega nada.
+
 ### Vincular sin cuenta
 
 Otra forma, sin usuario ni contraseña, para quien prefiera que **ni el servidor pueda leer sus
