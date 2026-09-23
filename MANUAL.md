@@ -59,9 +59,16 @@ aunque hoy falle la conexión.
 Solo si nunca se ha podido traer ninguno verás un **—**, y debajo el motivo. Se vuelve a
 intentar solo; no hay nada que tocar.
 
-**Sugerencia.** Una palabra —*comprar*, *vender* o *mantener*— con una línea explicando de
-dónde sale. Se calcula con indicadores del mercado (medias móviles y RSI sobre velas de una
-hora) y con tus propias compras. Si la apagas en [Estrategia](#6-estrategia), esta tarjeta
+**Sugerencia.** Dos, una por cada dinero, cada una con una línea explicando de dónde sale:
+
+- **Con lo disponible** — *comprar* o *esperar*. Solo mira el mercado: indicadores (medias
+  móviles y RSI sobre velas de una hora) y cuánto ha caído. Cuando toca esperar, dice cuánto
+  tienes disponible y a qué precio empezaría tu escalera de compra.
+- **Con lo comprado** — *cobrar* o *mantener*. Solo mira tu ganancia: sugiere cobrar una
+  parte desde **+20 %**. Solo aparece si tienes compras registradas.
+
+Van por separado a propósito: cobrar parte de lo que ya ganó y comprar más abajo con otro
+dinero no es contradictorio. Si la apagas en [Estrategia](#6-estrategia), esta tarjeta
 desaparece.
 
 Debajo, los botones:
@@ -121,8 +128,12 @@ Responde a una pregunta: *¿debería comprar ahora, y cuánto?*
 Arriba, cuatro cifras: **techo total**, **ya invertido**, **disponible** y **precio del
 SOL**.
 
-Debajo, la **acción sugerida** con su explicación: cuánto invertiría, por qué, y qué escalón
-de tu escalera se ha activado.
+Debajo, dos **acciones sugeridas**, cada una con su explicación:
+
+- **Con lo disponible**: cuánto invertiría, por qué y qué escalón de tu escalera se ha
+  activado. Si toca esperar, dónde empieza la escalera.
+- **Con lo comprado**: cuánto venderías de tu posición al llegar a tu objetivo de ganancia, o
+  por qué mantener.
 
 Y después, la parte más útil: **qué pasó las otras veces**. Para cada objetivo de precio te
 dice cuántas veces el mercado estuvo así antes, cuánto tardó en llegar — y también las veces
@@ -178,19 +189,21 @@ cambiar en general o alerta por alerta.
   rango no avisa: eso pasa casi a diario y no es una decisión de nadie. Se mira **dos veces
   al día**, y el desempleo solo cuando puede haber uno nuevo; apagarlo también ahorra esas
   consultas cuando la app está cerrada.
-- **Avisarme cuando haya noticias nuevas** — con su propio **máximo de avisos al día**
-  (3 por defecto, 0 = sin límite), justo debajo del interruptor. Varias noticias nuevas
-  salen **en un solo aviso**: un día movido produce docenas de titulares, y un aviso por
-  cada uno es lo que acaba con alguien apagándolo todo.
+- **Avisarme cuando haya noticias nuevas** — **un aviso por noticia**, con el titular, la
+  entradilla y la hora a la que salió; al tocarlo se abre el artículo. La más nueva queda
+  arriba. Tiene su propio **máximo de noticias avisadas al día** (3 por defecto, 0 = sin
+  límite), justo debajo del interruptor: si llegan más, se avisa de las más nuevas y el
+  resto se ve en la pantalla de noticias.
 - **…aunque la app esté cerrada** *(Android)* — comprueba el precio de fondo cada **15, 30 o
   60 minutos**, que se elige en **Cada cuánto**. Menos de 15 no lo permite Android.
 - **…y de los cambios de sugerencia** *(Android)* — avisa también cuando la sugerencia
-  cambie.
+  cambie. Lo disponible y lo comprado avisan cada uno por su lado.
 
-Las noticias y los datos de EE. UU. **viajan en esa misma comprobación**, no piden una
-propia: así no gastan ni un despertar extra de batería. La contrapartida es que si no
-tienes ninguna alerta activa, con la app cerrada no llega nada —tampoco los titulares—. La
-pantalla de alertas te lo dice cuando es el caso.
+Con la app cerrada, **los avisos de noticias bastan para que el teléfono compruebe**, aunque
+no tengas ninguna alerta activa; si solo hacen falta las noticias, no se pide ni el precio.
+Los datos de EE. UU. viajan en esa misma comprobación y no piden una propia. Con alertas y
+noticias apagadas, con la app cerrada no llegan; la pantalla de alertas te lo dice cuando
+es el caso.
 
 **Comprobar ahora** *(Android)* hace una comprobación por el mismo camino que la automática.
 Si una alerta está cruzada, el aviso llega en unos segundos: sirve para confirmar que todo
@@ -200,6 +213,7 @@ Los avisos **quedan en el panel de notificaciones** después de desvanecerse, as
 alerta que salta mientras no miras la pantalla no se pierde.
 
 En Android salen en **dos grupos** del sistema: *Alertas de precio* y *Noticias y datos*.
+Las noticias, además, se apilan juntas bajo *Noticias de Solana*.
 Puedes silenciar uno sin tocar el otro desde los ajustes de notificaciones de Android, que
 es donde mucha gente los apaga.
 
@@ -302,7 +316,7 @@ Toda esta sección describe la ventanita, así que en el teléfono no aparece.
 | **Opacidad del fondo** | De transparente a sólido |
 | **Mostrar variación 24 h** | Enseña o esconde el porcentaje del día |
 | **Mostrar mi resultado** | Enseña o esconde tu ganancia o pérdida |
-| **Mostrar la sugerencia** | Enseña o esconde la palabra final |
+| **Mostrar la sugerencia** | Enseña o esconde la sugerencia del final: *comprar* y/o *vender*, o *mantener* si no hay nada que hacer |
 
 **Tema**: **Oscuro**, **Claro**, **Solana** o **Personalizado**.
 
