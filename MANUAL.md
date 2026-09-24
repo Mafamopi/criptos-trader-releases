@@ -340,29 +340,29 @@ prefieras.
 
 Con una cuenta, tus **compras, techo, alertas, estrategia y qué avisos quieres** están iguales
 en el PC y en el teléfono, sin pasar archivos. Lo de la pantalla —tema, colores, el ticker,
-iniciar con Windows— no viaja: cada aparato tiene el suyo.
+iniciar con Windows— no viaja: cada dispositivo tiene el suyo.
 
 La primera vez que abres la app te lo ofrece: **Crear cuenta**, **Ya tengo cuenta** o **Ahora
 no**. Después está siempre en *Ajustes → Mi cuenta*.
 
 - **Crear cuenta** — nombre de usuario, correo y contraseña (mínimo 8 caracteres). El usuario y
-  el correo no pueden estar repetidos. Lo que tienes en ese aparato pasa a la cuenta.
-- **Iniciar sesión** en otro aparato — con tu **usuario o tu correo**, y la contraseña.
-  - Si ese aparato ya tenía compras o alertas propias, te pregunta: **Cargar los de mi cuenta**
-    (queda solo lo de la cuenta) o **Juntar con los de este aparato** (se suman sin perder nada).
+  el correo no pueden estar repetidos. Lo que tienes en ese dispositivo pasa a la cuenta.
+- **Iniciar sesión** en otro dispositivo — con tu **usuario o tu correo**, y la contraseña.
+  - Si ese dispositivo ya tenía compras o alertas propias, te pregunta: **Cargar los de mi cuenta**
+    (queda solo lo de la cuenta) o **Juntar con los de este dispositivo** (se suman sin perder nada).
   - Si está recién instalado, carga lo de tu cuenta directamente.
 - **La sesión queda iniciada**: no vuelve a pedirte la contraseña. Si cierras sesión, recuerda tu
   usuario para que solo tengas que escribir la contraseña. La contraseña no se guarda en el
-  aparato.
+  dispositivo.
 - **Olvidé mi contraseña** — escribe tu correo y te llega un código de 6 cifras; con él pones una
   contraseña nueva. **Si no lo ves, mira en spam.** Al ponerla, se cierra la sesión en tus otros
-  aparatos.
+  dispositivos.
 - **Cambiar contraseña** y **Cerrar sesión**, en la misma pantalla.
 
 Sincroniza solo: al abrir la app, cada 5 minutos mientras está abierta y unos segundos después de
 cada cambio. La pantalla dice cuándo fue la última vez, o qué falló.
 
-**Si cambias lo mismo en dos aparatos:** dos compras nuevas quedan las dos; la misma compra
+**Si cambias lo mismo en dos dispositivos:** dos compras nuevas quedan las dos; la misma compra
 editada en los dos se queda con la edición más reciente; y si en uno la borras y en el otro la
 editas después, se conserva: nada se borra en silencio.
 
@@ -388,35 +388,35 @@ la frena y se renueva más o menos una vez por minuto. Si el precio se queda vie
 ### Vincular sin cuenta
 
 Otra forma, sin usuario ni contraseña, para quien prefiera que **ni el servidor pueda leer sus
-datos**: los aparatos se unen con un vínculo y todo **se cifra en el aparato antes de subir**. A
-cambio, no hay recuperación: si pierdes el vínculo y todos tus aparatos, lo del servidor no se
+datos**: los dispositivos se unen con un vínculo y todo **se cifra en el dispositivo antes de subir**. A
+cambio, no hay recuperación: si pierdes el vínculo y todos tus dispositivos, lo del servidor no se
 puede leer. No se usa a la vez que una cuenta.
 
-- **Empezar aquí (primer aparato)** — escribe la dirección del servidor
-  (`https://sync.serviciosmultiplesorion.com`) y pulsa. Sube lo que tienes en este aparato.
-- **Vincular otro aparato** — enseña un vínculo; cópialo y pásatelo al otro aparato (por
+- **Empezar aquí (primer dispositivo)** — escribe la dirección del servidor
+  (`https://sync.serviciosmultiplesorion.com`) y pulsa. Sube lo que tienes en este dispositivo.
+- **Vincular otro dispositivo** — enseña un vínculo; cópialo y pásatelo al otro dispositivo (por
   ejemplo por correo o mensaje a ti mismo). Quien tenga ese vínculo puede ver y cambiar tus
   datos: no se lo pases a nadie más.
-- En el otro aparato, pega el vínculo y elige:
-  - **Unirme y usar sus datos** — lo normal en un aparato recién instalado: se queda con
+- En el otro dispositivo, pega el vínculo y elige:
+  - **Unirme y usar sus datos** — lo normal en un dispositivo recién instalado: se queda con
     lo del primero y no duplica las alertas por defecto.
   - **Unirme juntando con los de aquí** — si ya tenías compras registradas en los dos.
 
 Después sincroniza solo: al abrir la app, cada 5 minutos mientras está abierta y unos
 segundos después de cada cambio. La tarjeta dice cuándo fue la última vez, o qué falló.
 
-**Si cambias lo mismo en dos aparatos:** dos compras nuevas quedan las dos; la misma compra
+**Si cambias lo mismo en dos dispositivos:** dos compras nuevas quedan las dos; la misma compra
 editada en los dos se queda con la edición más reciente; y si en uno la borras y en el otro
 la editas después, se conserva: nada se borra en silencio.
 
-**Desvincular** deja tus datos en el aparato. Si además borras el servidor, los demás dejan de
+**Desvincular** deja tus datos en el dispositivo. Si además borras el servidor, los demás dejan de
 sincronizar. Guarda el vínculo o exporta una copia de vez en cuando: si pierdes todos tus
-aparatos, lo del servidor no se puede leer sin él.
+dispositivos, lo del servidor no se puede leer sin él.
 
 ### Mis datos
 
 **Exportar** guarda tus compras, alertas y estrategia en un archivo; **Importar** lo trae a
-este aparato, preguntándote antes si **unir** (no se pierde nada de ningún lado) o
+este dispositivo, preguntándote antes si **unir** (no se pierde nada de ningún lado) o
 **reemplazar** (queda solo lo del archivo). Sirve como copia de seguridad o para pasar tus
 datos sin servidor. El archivo **no va cifrado**: guárdalo donde guardarías un extracto del
 banco.
