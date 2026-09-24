@@ -31,6 +31,13 @@ Es lo primero que ves y lo que más vas a mirar.
 **El precio**, grande, y debajo la **variación de las últimas 24 horas** en verde si sube y
 en rojo si baja.
 
+El precio sale del servidor de Criptos Trader, que lo consulta para todos a la vez: el PC, el
+teléfono y el navegador ven **el mismo número, de la misma fuente y con la misma hora**. Al pie
+de la pantalla se lee de dónde viene y de qué hora es (por ejemplo, *Binance.US · 10:45:37*).
+Si tiene más de 30 segundos, lo dice (*hace 45 s*). Si el servidor no responde, la app lo pide
+directo a CoinGecko o Binance para no dejarte sin precio, y avisa de que **puede diferir de tus
+otros dispositivos**.
+
 **Tu resultado.** Cuánto ganas o pierdes ahora mismo con lo que hayas comprado, en dólares y
 en porcentaje. Si aún no has registrado ninguna compra, en su lugar hay un botón que te
 lleva directo a donde se registran.
@@ -373,6 +380,10 @@ programa, las alertas, los cambios de sugerencia, las noticias y los datos de EE
 como notificaciones del navegador. La primera vez pulsa **Dar permiso** en *Alertas*: el
 navegador solo deja pedirlo después de que toques algo. Si estás mirando la pestaña no sale
 notificación, porque ya lo ves en la app. Con la pestaña cerrada no llega nada.
+
+**El precio en la pestaña:** el título de la pestaña lleva el precio delante
+(*$116.13 ▲2.3% · Criptos Trader*), así lo ves sin entrar. Con la pestaña de fondo el navegador
+la frena y se renueva más o menos una vez por minuto. Si el precio se queda viejo, sale con ⏸.
 
 ### Vincular sin cuenta
 
