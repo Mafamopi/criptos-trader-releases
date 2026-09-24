@@ -1,8 +1,8 @@
 # Criptos Trader
 
-El precio de tu criptomoneda en vivo, en una ventanita pegada a la barra de tareas de
-Windows. Siempre a la vista, con alertas de precio, el seguimiento de tus compras y una
-sugerencia de comprar, vender o mantener.
+El precio de tu criptomoneda en vivo, con alertas de precio, el seguimiento de tus compras
+y una sugerencia de comprar, vender o mantener. En **Windows**, en **Android** y en el
+**navegador**, con los mismos datos en todos.
 
 ```
 SOL $99.88 ▲2.81% +$27.20 (+1.4%) mantener
@@ -14,78 +14,92 @@ SOL $99.88 ▲2.81% +$27.20 (+1.4%) mantener
 
 ## Qué hace
 
-Es una ventanita que se queda pegada a la barra de tareas y va marcando el precio mientras
-trabajas, sin tener que abrir nada ni mirar una web.
-
-- **El precio en vivo**, con la variación de las últimas 24 horas en verde o en rojo.
-- **Alertas de precio**: le dices a qué nivel te avisa —al subir o al bajar— y te lo avisa
-  Windows, aunque tengas la ventana escondida.
-- **Tus compras**: apuntas cuánto compraste, a qué precio y cuándo, y el ticker te enseña
-  al lado si vas ganando o perdiendo, en dólares y en porcentaje.
+- **El precio en vivo**, con la variación de las últimas 24 horas en verde o en rojo. Es
+  **el mismo en todos tus dispositivos**: lo consulta nuestro servidor para todos a la vez.
+- **Alertas de precio**: le dices a qué nivel te avisa —al subir o al bajar— y te avisa
+  Windows, el teléfono o el navegador.
+- **Tus compras**: apuntas cuánto compraste, a qué precio y cuándo, y ves si vas ganando o
+  perdiendo, en dólares y en porcentaje.
 - **Una sugerencia**: una palabra pequeña —*comprar*, *vender* o *mantener*— calculada a
   partir de indicadores del mercado y de tus propias compras.
 - **Un plan de inversión**: eliges cuánto capital tienes disponible y qué tan arriesgado
   quieres ser, y te dice cuánto invertiría en cada caída y qué pasó las veces anteriores
   que el mercado estuvo así, incluidas las que salieron mal.
-- **Se aparta sola**: si abres un juego o un vídeo a pantalla completa, se esconde y vuelve
-  cuando sales.
+- **En Windows, una ventanita pegada a la barra de tareas** que va marcando el precio
+  mientras trabajas, y se esconde sola si abres un juego o un vídeo a pantalla completa.
 
-Todo lo que configures se queda en tu computador. La app no tiene cuentas, no pide registro
-y no envía tus compras ni tus alertas a ninguna parte.
+**Tus datos.** Sin cuenta, todo se queda en el dispositivo donde lo apuntas. Con una
+**cuenta** (opcional, desde *Ajustes → Mi cuenta*), tus compras, alertas y estrategia son
+las mismas en el PC, el teléfono y el navegador; se guardan en el servidor de Criptos Trader,
+que puede leerlas: es lo que permite recuperar la cuenta si olvidas la contraseña. Si
+prefieres que ni el servidor pueda leerlas, puedes **vincular sin cuenta**: los datos se
+cifran en tu dispositivo antes de subir, a cambio de que no haya recuperación.
 
 Por ahora sigue una sola moneda, **SOL**. Poder elegir entre varias es lo siguiente que
 llega, y llegará sola con una actualización: no habrá que reinstalar nada.
 
 ---
 
-## 1. Descargar
+## Cómo usarla
 
-Entra en la **[última versión](../../releases/latest)** y descarga
-**`CriptosTrader-win-Setup.exe`**.
+Elige una, o varias: con una cuenta ves lo mismo en todas.
 
-Es el único archivo que necesitas. Los demás que verás ahí son para uso interno de la app.
+| | Qué hacer |
+|---|---|
+| **Navegador** | Entra en **https://criptostrader.serviciosmultiplesorion.com**. No se instala nada y siempre abre la última versión. |
+| **Windows** | Descarga **`CriptosTrader-win-Setup.exe`** de la **[última versión](../../releases/latest)**. |
+| **Android** | Descarga **`CriptosTrader-android.apk`** de la **[última versión](../../releases/latest)**, en el teléfono. |
+
+Los demás archivos que verás en la versión son para uso interno de la app.
+
+## Windows
 
 Funciona en **Windows 10 y Windows 11** (64 bits).
 
+Ejecuta el archivo que descargaste. Windows dirá **«Windows protegió su PC»**. Es normal y no
+significa que el archivo tenga nada malo: pulsa **Más información** y luego **Ejecutar de
+todas formas**. No pregunta nada más: no pide permisos de administrador y no hay que elegir
+carpeta.
+
 > ¿Prefieres no instalar nada? También hay un **`CriptosTrader-win-Portable.zip`**: se
 > descomprime y se ejecuta tal cual. A cambio, esa copia **no se actualiza sola**.
-
-## 2. Instalar
-
-Ejecuta el archivo que descargaste.
-
-Windows dirá **«Windows protegió su PC»**. Es normal y no significa que el archivo tenga
-nada malo: pulsa **Más información** y luego **Ejecutar de todas formas**.
-
-No pregunta nada más. No pide permisos de administrador y no hay que elegir carpeta.
-
-## 3. Usarlo
 
 Al terminar, el ticker aparece solo junto a la barra de tareas.
 
 - **Clic** encima → la configuración.
 - **Clic derecho** → el menú: alertas, plan de inversión, iniciar con Windows, ocultarlo.
 - **Arrástralo** donde quieras: se queda ahí, también la próxima vez.
-- Si pones un juego o un vídeo a pantalla completa, se esconde solo y vuelve al salir.
 
 El icono junto al reloj lleva al mismo menú, y sigue ahí aunque escondas el ticker.
 
----
+**Se actualiza sola:** cuando hay una versión nueva, la aplica al abrirla. Si no quieres
+esperar: **clic derecho → Buscar actualizaciones**.
 
-## Se actualiza sola
+**Desinstalar:** *Configuración → Aplicaciones → Aplicaciones instaladas → Criptos Trader →
+Desinstalar*. Si la instalaste hace tiempo, puede aparecer todavía como «Solana Taskbar
+Ticker»: es la misma.
 
-Cuando haya una versión nueva, la app la aplica al abrirla. No hay que volver a descargar
-nada ni desinstalar la anterior.
+## Android
 
-Si no quieres esperar: **clic derecho → Buscar actualizaciones**.
+Abre el APK descargado. Como no viene de una tienda, el teléfono pedirá permiso para
+**instalar aplicaciones desconocidas** desde el navegador o el gestor de archivos: dáselo
+para esta instalación.
 
-## Desinstalar
+**Versiones nuevas:** la app te avisa cuando sale una, y el aviso lleva a descargar el APK
+nuevo. Se instala encima de la anterior y conserva tus compras y tus alertas.
 
-En Windows: **Configuración → Aplicaciones → Aplicaciones instaladas → Criptos Trader →
-Desinstalar**.
+**Las alertas llegan aunque la app esté cerrada**: la primera vez, dale permiso de
+notificaciones.
 
-Si la instalaste hace tiempo, en esa lista puede aparecer todavía como
-«Solana Taskbar Ticker»: es la misma.
+## Navegador
+
+**https://criptostrader.serviciosmultiplesorion.com** — la misma app, sin instalar nada. La
+primera vez tarda unos segundos en cargar; después, casi nada. El título de la pestaña lleva
+el precio, para verlo sin entrar en ella.
+
+Con la pestaña abierta, aunque estés en otra, las alertas llegan como notificaciones del
+navegador (pulsa **Dar permiso** en *Alertas* la primera vez). Con la pestaña cerrada no llega
+nada.
 
 ---
 
@@ -116,7 +130,8 @@ totalidad del dinero que inviertas**.
 
 **Los precios vienen de terceros.**
 
-Los publica un servicio externo sobre el que no tenemos control. Pueden llegar con retraso,
+Los publican servicios externos sobre los que no tenemos control; nuestro servidor solo los
+reparte. Pueden llegar con retraso,
 llegar equivocados o no llegar. No uses esta app como única fuente para una decisión que te
 importe.
 
