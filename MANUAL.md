@@ -362,8 +362,9 @@ intervalo que está funcionando ahora mismo.
 
 En qué moneda se enseñan el precio convertido y el dólar de la pantalla de inicio:
 **Automática** (la de la región del dispositivo, que se ve entre paréntesis), una moneda elegida
-de la lista, o **No mostrar**. Si las tasas del servidor no traen la moneda elegida, aquí mismo
-lo dice.
+de la lista, o **No mostrar**. Mientras no han llegado las tasas, la lista solo ofrece
+**Automática** y **No mostrar**; si las que llegan no traen la moneda elegida, una nota lo dice
+debajo.
 
 ### Ticker de la barra de tareas *(solo Windows)*
 
