@@ -31,6 +31,17 @@ Es lo primero que ves y lo que más vas a mirar.
 **El precio**, grande, y debajo la **variación de las últimas 24 horas** en verde si sube y
 en rojo si baja.
 
+A la derecha del precio está el icono de **actualizar** (**↻**): pide el precio en ese momento,
+sin esperar al siguiente ciclo. Mientras llega, la flecha gira y el icono no se puede volver a
+pulsar; en cuanto contesta —o falla— vuelve a su sitio. No hace falta usarlo: el precio se
+refresca solo.
+
+Debajo, en pequeño, **el precio en tu moneda y cuánto vale un dólar** (por ejemplo
+*≈ $471.042 COP* y *1 USD = $3.912,30 COP · hoy*). La moneda sale de la región de tu
+dispositivo (en el navegador, de tu zona horaria, y si no la hay, del idioma del navegador); si
+es EE. UU., no aparece. Tocando la línea del dólar se lee de dónde sale la tasa y
+de qué día es: es una referencia, tu banco aplica la suya.
+
 El precio sale del servidor de Criptos Trader, que lo consulta para todos a la vez: el PC, el
 teléfono y el navegador ven **el mismo número, de la misma fuente y con la misma hora**. Al pie
 de la pantalla se lee de dónde viene y de qué hora es (por ejemplo, *Binance.US · 10:45:37*).
@@ -42,8 +53,29 @@ otros dispositivos**.
 en porcentaje. Si aún no has registrado ninguna compra, en su lugar hay un botón que te
 lleva directo a donde se registran.
 
-**Alertas que han saltado.** Aparece solo si ha saltado alguna. Guarda las últimas 20 de
-esta sesión, la más reciente arriba.
+**Los iconos de arriba.** A la derecha de *SOLANA* hay tres, en este orden: el
+**periódico** abre las [Noticias](#5-noticias), la **campana** abre los avisos y el
+**engranaje** abre los [Ajustes](#7-ajustes).
+
+En el PC y en el navegador, **al pasar el ratón por encima de cualquier icono** sale lo que
+hace: *Noticias*, *Avisos*, *Ajustes*, *Actualizar precio*, *Borrar este aviso* en la ✕ de
+cada aviso y *Volver* en la **‹** de arriba a la izquierda de cada pantalla.
+
+**El periódico.** Lleva un número rojo cuando hay titulares que todavía no has abierto
+(*9+* si son más de nueve). Cuenta también los que llegaron con la app cerrada. Cómo dejan de
+contar lo explica la sección de [Noticias](#5-noticias).
+
+**La campana.** Recoge los avisos que te da la app:
+alertas de precio, cambios de sugerencia, datos de la FED y del desempleo y versiones nuevas.
+En el teléfono también los que llegan con la app cerrada, por push o por la comprobación de
+fondo. Las noticias no van aquí. Cuando hay avisos que aún no has visto, la campana lleva un
+número rojo (*9+* si son más de nueve).
+
+Tócala para ver la lista, el más reciente arriba: cada aviso con su título, el mensaje y
+cuándo llegó (*hoy 14:05*, *ayer 09:30* o la fecha). Los que no habías visto llevan un punto
+azul al lado. Abrir la lista los da por vistos y el número desaparece. La **✕** de cada aviso
+lo borra, y **Limpiar todo** los borra todos después de pedirte confirmación. Se guardan
+aunque cierres la app: como mucho los últimos 100, y los de más de 30 días se borran solos.
 
 **Tasa de la FED.** El rango de tipos de interés que fija la Reserva Federal de Estados
 Unidos, con el tipo efectivo del último día hábil y la fecha del dato. Es contexto, no
@@ -82,16 +114,14 @@ Debajo, los botones:
 
 | Botón | Qué hace |
 |---|---|
-| **Actualizar ahora** | Pide el precio sin esperar al siguiente ciclo |
 | **Mi inversión** | Solo aparece si ya registraste alguna compra |
 | **Plan de inversión** | Cuánto invertir ahora, y qué pasó otras veces |
 | **Alertas de precio** | Crear y administrar avisos |
-| **Noticias** | Los últimos titulares de Solana |
 | **Estrategia** | Perfil de riesgo y escalera de compra |
-| **Ajustes** | Intervalo, apariencia, gráfico |
 | **Manual de uso** | Esto que estás leyendo, dentro de la app |
 
-No hace falta usar *Actualizar ahora*: el precio se refresca solo.
+Noticias y Ajustes no están en esta lista: se abren con sus iconos de arriba. Tampoco está
+*Actualizar ahora*: ahora es el icono **↻** junto al precio.
 
 ---
 
@@ -235,8 +265,22 @@ Los últimos titulares sobre Solana, del más nuevo al más viejo. Salen de
 **Cointelegraph**, de su canal dedicado a Solana: no es un río de noticias generales
 filtrado a ojo, es el canal de la moneda.
 
+Se llega con el **periódico** de arriba en la pantalla de inicio.
+
 Cada titular **es el enlace**: al tocarlo se abre la noticia completa en el navegador.
 Debajo va la entradilla y la hora a la que se publicó, en tu hora.
+
+**Los que no has leído llevan un punto azul** al lado, y son los que cuenta el número del
+periódico. Un titular deja de contar cuando **lo abres** para leerlo; entrar en la pantalla
+no basta. **Marcar todas como leídas**, arriba, los da todos por leídos de una vez (no se
+borra nada; solo aparece si queda alguno sin leer). Lo leído se guarda aunque cierres la app,
+y es de cada dispositivo: lo que leas en el teléfono sigue sin leer en el PC.
+
+La primera vez que abres esta versión, los titulares que ya estaban cuentan como leídos: el
+número empieza a contar con los que lleguen después.
+
+> Si abres una noticia desde el **aviso del teléfono**, también cuenta como leída: el número
+> baja aunque no hayas entrado en la app.
 
 **Los titulares llegan en inglés y la app los traduce.** Debajo de cada uno, en letra
 pequeña, queda el titular original: la traducción es automática y puede torcer un nombre o
@@ -311,6 +355,13 @@ En **Windows**: 5 s, 10 s, 15 s, 30 s, 1 min, 2 min o 5 min.
 
 En **Otro (segundos)** puedes escribir un número propio; debajo se lee el rango admitido y el
 intervalo que está funcionando ahora mismo.
+
+### Moneda local
+
+En qué moneda se enseñan el precio convertido y el dólar de la pantalla de inicio:
+**Automática** (la de la región del dispositivo, que se ve entre paréntesis), una moneda elegida
+de la lista, o **No mostrar**. Si las tasas del servidor no traen la moneda elegida, aquí mismo
+lo dice.
 
 ### Ticker de la barra de tareas *(solo Windows)*
 
