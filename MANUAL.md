@@ -218,7 +218,9 @@ cambiar en general o alerta por alerta.
 - **…y de las de venta** *(Windows)*
 - **Avisarme cuando haya una actualización** — en Windows la versión ya está descargada y
   solo falta reiniciar; en Android el aviso lleva a la página de descargas, porque un APK no
-  puede instalarse solo
+  puede instalarse solo. En Android, con los avisos por push activos, llega **en cuanto se
+  publica** (el servidor lo mira cada 15 minutos), aunque la app esté cerrada; sin push, la
+  comprobación de fondo lo mira como mucho cada 6 horas. Se avisa una vez por versión
 - **Avisarme cuando la FED cambie el tipo de interés** — cubre los dos datos de Estados
   Unidos: el tipo de la FED y el desempleo. El rango objetivo solo cambia en las ocho
   reuniones anuales de la FED, y el desempleo se publica una vez al mes, así que son unos
